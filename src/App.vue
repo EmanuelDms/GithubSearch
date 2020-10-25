@@ -1,7 +1,5 @@
 <template>
-  <div class="container">
-    <Home />
-  </div>
+  <Home />
 </template>
 
 <script>
@@ -27,5 +25,7 @@ export default {
 
 #app {
   text-align: justify;
+  display: flex;
+  flex-direction: column;
 }
 </style>
