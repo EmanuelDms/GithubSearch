@@ -18,19 +18,11 @@ export default {
 </script>
 
 <style>
-#app {
-  height: 100vh;
-
+#home {
   display: flex;
+  flex-direction: column;
+
   justify-content: center;
   align-items: center;
-}
-
-#home {
-  background: brown;
-}
-
-#result {
-  margin-top: 10px;
 }
 </style>
