@@ -3,31 +3,16 @@
     <AppTitle />
     <SearchBar />
   </form>
-  <Result />
 </template>
 
 <script>
-import axios from "axios";
-
 import AppTitle from "./AppTitle";
 import SearchBar from "./SearchBar";
-import Result from "./Result";
 
 export default {
-  data() {
-    return {
-      res: null,
-    };
-  },
   components: {
     AppTitle,
     SearchBar,
-    Result,
-  },
-  mounted() {
-    axios
-      .get("https://api.github.com/users/emanueldms")
-      .then((response) => (this.res = response));
   },
 };
 </script>
