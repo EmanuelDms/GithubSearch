@@ -1,17 +1,17 @@
 <template>
   <h1 id="title">
-    <strong>github</strong>&nbsp;
-    <em>search</em>
+    <strong>Github</strong>&nbsp;
+    <em>Search</em>
   </h1>
 </template>
 
 <style>
 #title {
-  text-transform: capitalize;
+  font-size: 3.5rem;
 }
 
 #title strong {
-  font-weight: 500;
+  font-family: Roboto Mono, sans-serif;
 }
 
 #title em {
