@@ -1,31 +1,28 @@
 <template>
-  <Home />
+  <div id="nav">
+    <router-link to="/">Home</router-link> |
+    <router-link to="/result">Result</router-link> |
+    <router-link to="/api">Git API</router-link>
+  </div>
+  <router-view />
 </template>
 
-<script>
-import Home from "./components/Home";
-
-export default {
-  name: "app",
-  components: {
-    Home,
-  },
-};
-</script>
-
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300&display=swap");
-
-* {
+#app {
   font-family: "Rubik", sans-serif;
-  margin: 0;
-  padding: 0;
-  color: #000000;
+  text-align: center;
+  color: #2c3e50;
+
+  display: flex;
+  flex-flow: column wrap;
 }
 
-#app {
-  text-align: justify;
-  display: flex;
-  flex-direction: column;
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
 }
 </style>
