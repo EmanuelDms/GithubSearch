@@ -19,7 +19,10 @@ export default {
 <style>
 #result {
   background: blueviolet;
+
   display: flex;
   flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 </style>
