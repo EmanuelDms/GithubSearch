@@ -1,20 +1,31 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/result">Result</router-link> |
     <router-link to="/api">Git API</router-link>
   </div>
-  <router-view />
+  <div class="container">
+    <router-view />
+  </div>
 </template>
 
 <style>
-#app {
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+
+* {
   font-family: "Rubik", sans-serif;
-  text-align: center;
-  color: #2c3e50;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 90vh;
 
   display: flex;
-  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 #nav a {
