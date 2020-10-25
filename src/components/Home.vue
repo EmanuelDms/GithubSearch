@@ -1,4 +1,5 @@
 <template>
+  {{ res }}
   <form>
     <AppTitle />
     <SearchBar />
