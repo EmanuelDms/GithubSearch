@@ -1,11 +1,5 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/api">Git API</router-link>
-  </div>
-  <div class="container">
-    <router-view />
-  </div>
+  <router-view />
 </template>
 
 <style>
@@ -20,20 +14,7 @@
   box-sizing: border-box;
 }
 
-.container {
-  height: 90vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+body {
+  padding: 28px;
 }
 </style>
