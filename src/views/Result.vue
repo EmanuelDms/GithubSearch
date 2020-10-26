@@ -8,21 +8,33 @@
       <img src="../assets/test.png" alt="github image" id="GithubImage" />
       <h3>Lindemberg</h3>
       <span>lindemberg</span>
-    </aside>
-    <article>
-      <div class="repo">
-        <h3>Angular-AdminLTE</h3>
-        <span>
-          AngularjsApp Implementation on top of renowned Admin-LTE theme
-          (https://github.com/almasaeed2010/AdminLTE) now with many useful
-          directives and features.
-        </span>
-        <div class="repo-stars">
-          <img src="../assets/star.svg" alt="star" />
+
+      <!-- User Infos -->
+      <div class="userInfo">
+        <div class="singleInfo">
+          <img src="../assets/organization.svg" alt="Organization" />
+          <span>Lux One</span>
+        </div>
+        <div class="singleInfo">
+          <img src="../assets/location.svg" alt="Organization" />
+          <span>Fortaleza, CE</span>
+        </div>
+        <div class="singleInfo">
+          <img src="../assets/star.svg" alt="Organization" />
           <span>0</span>
         </div>
+        <div class="singleInfo">
+          <img src="../assets/repo.svg" alt="Organization" />
+          <span>4</span>
+        </div>
+        <div class="singleInfo">
+          <img src="../assets/followers.svg" alt="Organization" />
+          <span>1</span>
+        </div>
       </div>
-
+      <!-- // User Infos -->
+    </aside>
+    <article>
       <div class="repo">
         <h3>Angular-AdminLTE</h3>
         <span>
@@ -85,13 +97,16 @@ h3 {
   font-size: 2.25rem;
   font-weight: 400;
 }
-
 /* // Geral */
 
 /* ASIDE (Profile) */
-
 aside {
   grid-area: b;
+}
+
+#GithubImage {
+  height: 300px;
+  width: 300px;
 }
 
 aside span {
@@ -100,10 +115,25 @@ aside span {
   font-weight: 300;
 }
 
+.userInfo {
+  margin-top: 44px;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+}
+
+.singleInfo {
+  display: flex;
+  align-items: center;
+}
+
+.singleInfo img {
+  padding-right: 12px;
+}
 /* // ASIDE (Profile) */
 
 /* Repositórios */
-
 article {
   grid-area: a;
   padding-left: 28px;
@@ -136,6 +166,5 @@ article {
 .repo-stars img {
   margin-right: 10.34px;
 }
-
 /* // Repositórios */
 </style>
