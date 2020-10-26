@@ -1,8 +1,10 @@
 <template>
-  <form id="home">
-    <AppTitle />
-    <SearchBar />
-  </form>
+  <div class="container">
+    <form>
+      <AppTitle />
+      <SearchBar />
+    </form>
+  </div>
 </template>
 
 <script>
@@ -17,12 +19,18 @@ export default {
 };
 </script>
 
-<style>
-#home {
+<style scoped>
+.container {
+  height: 90vh;
   display: flex;
-  flex-direction: column;
-
   justify-content: center;
   align-items: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 </style>
