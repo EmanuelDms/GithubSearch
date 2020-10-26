@@ -1,13 +1,13 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Home from '../views/Home.vue'
-import Result from '../views/Result.vue'
+import Home from '@/views/Home.vue'
+import Result from '@/views/Result.vue'
 import API from '@/components/gitApi.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
   },
   {
     path: '/result',
