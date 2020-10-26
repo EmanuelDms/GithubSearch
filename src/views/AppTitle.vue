@@ -1,13 +1,15 @@
 <template>
-  <h1 id="title">
+  <router-link to="/" id="title">
     <strong>Github</strong>&nbsp;
     <em>Search</em>
-  </h1>
+  </router-link>
 </template>
 
 <style>
 #title {
+  color: black;
   font-size: 3.5rem;
+  text-decoration: none;
 }
 
 #title strong {
