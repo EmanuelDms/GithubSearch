@@ -6,14 +6,14 @@
     </form>
     <aside>
       <img src="../assets/test.png" alt="github image" id="GithubImage" />
-      <h3>Lindemberg</h3>
-      <span>lindemberg</span>
+      <h3>User</h3>
+      <span>username</span>
 
       <!-- User Infos -->
       <div class="userInfo">
         <div class="singleInfo">
           <img src="../assets/organization.svg" alt="Organization" />
-          <span>Lux One</span>
+          <span>Company</span>
         </div>
         <div class="singleInfo">
           <img src="../assets/location.svg" alt="Organization" />
@@ -36,11 +36,12 @@
     </aside>
     <article>
       <div class="repo">
-        <h3>Angular-AdminLTE</h3>
+        <h3>Super Broccoli</h3>
         <span>
-          AngularjsApp Implementation on top of renowned Admin-LTE theme
-          (https://github.com/almasaeed2010/AdminLTE) now with many useful
-          directives and features.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
+          aperiam quis repellendus. Aperiam possimus tenetur deleniti, repellat
+          eos animi temporibus autem nostrum, iusto incidunt iste adipisci quam
+          suscipit ad reprehenderit!
         </span>
         <div class="repo-stars">
           <img src="../assets/star.svg" alt="star" />
@@ -49,11 +50,12 @@
       </div>
 
       <div class="repo">
-        <h3>Angular-AdminLTE</h3>
+        <h3>Logica de Programação</h3>
         <span>
-          AngularjsApp Implementation on top of renowned Admin-LTE theme
-          (https://github.com/almasaeed2010/AdminLTE) now with many useful
-          directives and features.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+          animi a maxime, itaque dolore est possimus quos dignissimos, quia
+          nihil accusamus quibusdam modi, aut labore architecto impedit dolor
+          placeat repudiandae?
         </span>
         <div class="repo-stars">
           <img src="../assets/star.svg" alt="star" />
